@@ -7,6 +7,7 @@ function destructivelyAppendKitten(name) {
 }
 
 function destructivelyPrependKitten(name) {
+  var newName = name
   name.unshift("new")
-  return name 
+  return newName 
 }
