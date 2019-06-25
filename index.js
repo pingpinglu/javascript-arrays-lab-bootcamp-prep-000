@@ -8,6 +8,6 @@ function destructivelyAppendKitten(name) {
 
 function destructivelyPrependKitten(name) {
   var newName = name
-  name.unshift("new")
+  newName.unshift("new")
   return newName 
 }
